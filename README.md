@@ -1,4 +1,4 @@
-# Taleb Bouamatou — Portfolio
+# Taleb Mohamed Bouamatou — Portfolio
 
 A lightweight, responsive portfolio site built with HTML, CSS and JavaScript. It includes an English/French language switch and alternating black and ivory sections. The profile photo is a transparent PNG cutout. Official programming and software marks load from the Devicon and Simple Icons CDNs. Technologies without a suitable verified mark are shown as text labels instead of invented or broken logos.
 
