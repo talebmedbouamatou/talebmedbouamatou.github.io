@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="TMB monogram">
+  <rect x="3.5" y="3.5" width="93" height="93" fill="none" stroke="#f2f0e9" stroke-width="3"/>
+  <path d="M15 17h70M15 83h70" fill="none" stroke="#f2f0e9" stroke-width="2"/>
+  <text x="50" y="59" text-anchor="middle" fill="#f2f0e9" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" letter-spacing="-1.5">TMB</text>
+</svg>
