@@ -29,23 +29,34 @@ const copy = {
     projectsEyebrow: '02 — Selected work',
     projectsTitle: 'Projects',
     projectsIntro: 'Academic and engineering projects across automation, robotics, embedded systems and energy.',
+    repositoryLink: 'View repository on GitHub',
+    inProgress: 'In progress',
+    robotImageAlt: 'Mobile robot with a Raspberry Pi and depth camera',
+    iotImageAlt: 'Energy monitoring dashboard displaying power and consumption readings',
+    bldcImageAlt: '3D design of a BLDC motor control circuit board',
+    etapImageAlt: 'PowerWorld transmission network diagram showing generation, loads and power flows',
+    pvImageAlt: 'PVsyst scene showing a building and photovoltaic modules',
+    tempImageAlt: 'STM32 fan control setup connected to a laptop',
+    installationImageAlt: 'Electrical distribution diagram created with Caneco BT',
     projects: [
-      {type:'ROBOTICS · ROS 2',title:'3D PERCEPTION & OBSTACLE AVOIDANCE',description:'Mobile-robot perception using a depth camera to detect obstacles, identify free space and adapt the robot’s path in real time.',tags:['ROS 2','Depth camera','Mobile robotics']},
-      {type:'IOT · SUPERVISION',title:'IOT REAL-TIME ENERGY MONITORING',description:'Energy-monitoring solution for measurement, storage and real-time visualisation using connected embedded devices and a dashboard.',tags:['Raspberry Pi','ESP32','MQTT','Node-RED','Grafana']},
+      {type:'ROBOTICS · ROS 2',title:'3D PERCEPTION & OBSTACLE AVOIDANCE',description:'Mobile-robot perception using a Raspberry Pi 5 and a depth camera to detect obstacles, identify free space and adapt the robot’s path in real time.',tags:['ROS 2','Raspberry Pi 5','Depth camera','Docker']},
+      {type:'IOT · SUPERVISION',title:'IOT REAL-TIME ENERGY MONITORING',description:'IoT monitoring for energy consumption, temperature and humidity, using connected devices, MQTT, SQLite, and Grafana dashboards.',tags:['Raspberry Pi','ESP32','MQTT','Node-RED','Grafana']},
       {type:'POWER ELECTRONICS · FPGA',title:'BLDC MOTOR CONTROL ON SOC',description:'Modelled a BLDC motor in MATLAB/Simulink and developed six-step trapezoidal control for a Zybo Z7, with a three-phase MOSFET power board.',tags:['MATLAB / Simulink','Zybo Z7','Motor control']},
       {type:'EMBEDDED CONTROL',title:'SELF-BALANCING BALLBOT',description:'Modelled, simulated and implemented a self-balancing robot with an STM32, encoders and a stabilising control system.',tags:['STM32','Control systems','Encoders']},
-      {type:'INDUSTRIAL AUTOMATION',title:'AUTOMATED SORTING LINE',description:'Programmed Siemens and Schneider PLCs for sequential control of a sorting line and manipulator arm using Ladder logic and GRAFCET.',tags:['PLC','Ladder','GRAFCET']},
-      {type:'ELECTRICAL ENGINEERING',title:'ELECTRICAL & PV SYSTEM SIZING',description:'Studied residential and industrial electrical installations with Caneco BT and manual checks, and sized and simulated PV systems with PVsyst.',tags:['Caneco BT','PVsyst','Electrical design']},
-      {type:'EMBEDDED SYSTEMS',title:'TEMPERATURE CONTROL WITH STM32',description:'Measured temperature and controlled a fan using an STM32 microcontroller, with software developed in STM32CubeIDE and Keil.',tags:['STM32','STM32CubeIDE','Keil']}
+      {type:'POWER SYSTEMS',title:'ELECTRICAL POWER SYSTEM ANALYSIS',description:'Two network studies: industrial system analysis with ETAP and transmission network simulations with PowerWorld, covering load flow, reactive power compensation, protection coordination and network expansion.',tags:['ETAP','PowerWorld','Load Flow','Protection Coordination','Reactive Power','Transmission Networks']},
+      {type:'ELECTRICAL ENGINEERING',title:'ELECTRICAL & PV SYSTEM SIZING',description:'Photovoltaic system design studies covering PVSyst sizing and simulation of grid-connected and standalone systems, plus residential low-voltage PV design without battery storage.',tags:['PVsyst','Solar PV','Grid-Connected Systems','Off-Grid Systems']},
+      {type:'EMBEDDED SYSTEMS',title:'TEMPERATURE CONTROL WITH STM32',description:'An STM32-based temperature-control system that reads an LM35 sensor, uses an adjustable setpoint, and regulates fan speed through PWM.',tags:['STM32','C++','LM35','PWM','STM32CubeIDE','Keil']},
+      {type:'ELECTRICAL ENGINEERING',title:'INDUSTRIAL ELECTRICAL INSTALLATION DESIGN',description:'Design and sizing of an industrial low-voltage installation using Caneco BT, comparing TT and IT earthing systems, with transformer sizing, protection selection, cable sizing and voltage-drop calculations.',tags:['Caneco BT','Low Voltage','TT / IT Systems','Cable Sizing','Electrical Protection','Industrial Design']}
     ],
     projectImages: [
       {label:'DEPTH PERCEPTION / ROS 2',svg:[]},
       {label:'IOT ENERGY MONITORING',svg:['ENERGY MONITORING','LIVE DATA']},
       {label:'BLDC MOTOR CONTROL / SOC',svg:['3-PHASE CONTROL','PWM / SIX-STEP']},
       {label:'SELF-BALANCING ROBOT',svg:['STM32','BALANCE']},
-      {label:'AUTOMATED SORTING LINE',svg:['PLC SEQUENCE']},
+      {label:'ELECTRICAL POWER SYSTEM ANALYSIS',svg:['POWER SYSTEM ANALYSIS']},
       {label:'ELECTRICAL & PV SYSTEM DESIGN',svg:['PV SYSTEM SIZING']},
-      {label:'STM32 TEMPERATURE CONTROL',svg:['TEMPERATURE','FAN CONTROL']}
+      {label:'STM32 TEMPERATURE CONTROL',svg:['TEMPERATURE','FAN CONTROL']},
+      {label:'INDUSTRIAL INSTALLATION DESIGN',svg:['LOW-VOLTAGE DISTRIBUTION']}
     ],
     experienceEyebrow: '03 — Experience',
     experienceTitle: 'From theory to<br><em>practice.</em>',
@@ -99,23 +110,34 @@ const copy = {
     projectsEyebrow: '02 — Projets sélectionnés',
     projectsTitle: 'Projets',
     projectsIntro: 'Projets académiques en automatisme, robotique, systèmes embarqués et énergie.',
+    repositoryLink: 'Voir le dépôt sur GitHub',
+    inProgress: 'En cours',
+    robotImageAlt: 'Robot mobile avec un Raspberry Pi et une caméra de profondeur',
+    iotImageAlt: 'Tableau de bord de supervision affichant la puissance et la consommation électrique',
+    bldcImageAlt: 'Modèle 3D d’une carte de commande de moteur BLDC',
+    etapImageAlt: 'Schéma de réseau de transport PowerWorld montrant la production, les charges et les flux de puissance',
+    pvImageAlt: 'Scène PVsyst montrant un bâtiment et des modules photovoltaïques',
+    tempImageAlt: 'Montage STM32 de commande de ventilateur relié à un ordinateur',
+    installationImageAlt: 'Schéma de distribution électrique réalisé avec Caneco BT',
     projects: [
-      {type:'ROBOTIQUE · ROS 2',title:'PERCEPTION 3D ET ÉVITEMENT D’OBSTACLES',description:'Conception d’un système de perception pour robot mobile utilisant une caméra de profondeur afin de détecter les obstacles, repérer les espaces libres et adapter la trajectoire en temps réel.',tags:['ROS 2','Caméra de profondeur','Robotique mobile']},
-      {type:'IOT · SUPERVISION',title:'SUPERVISION ÉNERGÉTIQUE IOT EN TEMPS RÉEL',description:'Développement d’une solution de supervision énergétique pour mesurer, stocker et visualiser les données en temps réel à l’aide de dispositifs embarqués connectés et d’un tableau de bord.',tags:['Raspberry Pi','ESP32','MQTT','Node-RED','Grafana']},
+      {type:'ROBOTIQUE · ROS 2',title:'PERCEPTION 3D ET ÉVITEMENT D’OBSTACLES',description:'Conception d’un système de perception pour robot mobile utilisant un Raspberry Pi 5 et une caméra de profondeur afin de détecter les obstacles, repérer les espaces libres et adapter la trajectoire en temps réel.',tags:['ROS 2','Raspberry Pi 5','Caméra de profondeur','Docker']},
+      {type:'IOT · SUPERVISION',title:'SUPERVISION ÉNERGÉTIQUE IOT EN TEMPS RÉEL',description:'Supervision IoT de la consommation énergétique, de la température et de l’humidité, avec des appareils connectés, MQTT, SQLite et des tableaux de bord Grafana.',tags:['Raspberry Pi','ESP32','MQTT','Node-RED','Grafana']},
       {type:'ÉLECTRONIQUE DE PUISSANCE · FPGA',title:'COMMANDE D’UN MOTEUR BLDC SUR SOC',description:'Modélisation d’un moteur BLDC sous MATLAB/Simulink et développement d’une commande trapézoïdale à six étapes sur Zybo Z7, avec une carte de puissance triphasée à MOSFET.',tags:['MATLAB / Simulink','Zybo Z7','Commande moteur']},
       {type:'COMMANDE EMBARQUÉE',title:'ROBOT BALLBOT AUTO-ÉQUILIBRÉ',description:'Modélisation, simulation et réalisation d’un robot auto-équilibré intégrant une carte STM32, des encodeurs et une commande de stabilisation.',tags:['STM32','Systèmes de commande','Codeurs']},
-      {type:'AUTOMATISME INDUSTRIEL',title:'AUTOMATISATION D’UNE CHAÎNE DE TRI',description:'Programmation d’automates Siemens et Schneider pour commander séquentiellement une chaîne de tri et un bras manipulateur en Ladder et GRAFCET.',tags:['API','Ladder','GRAFCET']},
-      {type:'GÉNIE ÉLECTRIQUE',title:'DIMENSIONNEMENT ÉLECTRIQUE ET PHOTOVOLTAÏQUE',description:'Étude d’installations électriques résidentielles et industrielles avec Caneco BT et vérifications manuelles, puis dimensionnement et simulation d’installations photovoltaïques avec PVsyst.',tags:['Caneco BT','PVsyst','Conception électrique']},
-      {type:'SYSTÈMES EMBARQUÉS',title:'RÉGULATION DE TEMPÉRATURE AVEC STM32',description:'Mesure de la température et commande d’un ventilateur avec un microcontrôleur STM32 ; développement logiciel sous STM32CubeIDE et Keil.',tags:['STM32','STM32CubeIDE','Keil']}
+      {type:'RÉSEAUX ÉLECTRIQUES',title:'ANALYSE DES RÉSEAUX ÉLECTRIQUES',description:'Deux études de réseaux : analyse d’un système industriel avec ETAP et simulation d’un réseau de transport avec PowerWorld, couvrant les flux de puissance, la compensation de puissance réactive, la coordination des protections et l’extension du réseau.',tags:['ETAP','PowerWorld','Flux de puissance','Coordination des protections','Puissance réactive','Réseaux de transport']},
+      {type:'GÉNIE ÉLECTRIQUE',title:'DIMENSIONNEMENT ÉLECTRIQUE ET PHOTOVOLTAÏQUE',description:'Études de conception photovoltaïque comprenant le dimensionnement et la simulation avec PVsyst de systèmes raccordés au réseau et autonomes, ainsi que la conception d’une installation photovoltaïque résidentielle basse tension sans stockage par batterie.',tags:['PVsyst','Solaire photovoltaïque','Systèmes raccordés au réseau','Systèmes autonomes']},
+      {type:'SYSTÈMES EMBARQUÉS',title:'RÉGULATION DE TEMPÉRATURE AVEC STM32',description:'Système de régulation de température sur STM32 qui lit un capteur LM35, utilise une consigne ajustable et régule la vitesse du ventilateur par PWM.',tags:['STM32','C++','LM35','PWM','STM32CubeIDE','Keil']},
+      {type:'GÉNIE ÉLECTRIQUE',title:'CONCEPTION D’UNE INSTALLATION ÉLECTRIQUE INDUSTRIELLE',description:'Conception et dimensionnement d’une installation industrielle basse tension avec Caneco BT, comparant les schémas de liaison à la terre TT et IT, avec dimensionnement du transformateur et des câbles, choix des protections et calculs de chute de tension.',tags:['Caneco BT','Basse tension','Schémas TT / IT','Dimensionnement des câbles','Protection électrique','Conception industrielle']}
     ],
     projectImages: [
       {label:'PERCEPTION PROFONDE / ROS 2',svg:[]},
       {label:'SUPERVISION ÉNERGÉTIQUE IOT',svg:['SUPERVISION ÉNERGÉTIQUE','DONNÉES EN DIRECT']},
       {label:'COMMANDE MOTEUR BLDC / SOC',svg:['COMMANDE TRIPHASÉE','PWM / SIX ÉTAPES']},
       {label:'ROBOT AUTO-ÉQUILIBRÉ',svg:['STM32','ÉQUILIBRE']},
-      {label:'CHAÎNE DE TRI AUTOMATISÉE',svg:['SÉQUENCE API']},
+      {label:'ANALYSE DES RÉSEAUX ÉLECTRIQUES',svg:['ANALYSE DES RÉSEAUX']},
       {label:'DIMENSIONNEMENT ÉLECTRIQUE ET PV',svg:['DIMENSIONNEMENT PV']},
-      {label:'RÉGULATION DE TEMPÉRATURE STM32',svg:['TEMPÉRATURE','COMMANDE VENTILATEUR']}
+      {label:'RÉGULATION DE TEMPÉRATURE STM32',svg:['TEMPÉRATURE','COMMANDE VENTILATEUR']},
+      {label:'INSTALLATION ÉLECTRIQUE INDUSTRIELLE',svg:['DISTRIBUTION BASSE TENSION']}
     ],
     experienceEyebrow: '03 — Expérience',
     experienceTitle: 'De la théorie à<br><em>la pratique.</em>',
@@ -197,6 +219,20 @@ function applyLanguage(language) {
   setText('.projects-section .eyebrow', t.projectsEyebrow);
   setText('.projects-section h2', t.projectsTitle);
   setText('.projects-section .section-intro', t.projectsIntro);
+  document.querySelectorAll('.project-link').forEach((link) => { link.textContent = t.repositoryLink; });
+  setText('.project-status', t.inProgress);
+  const robotImage = document.querySelector('.project-image--ros img');
+  if (robotImage) robotImage.alt = t.robotImageAlt;
+  const iotImage = document.querySelector('.project-image--iot img');
+  if (iotImage) iotImage.alt = t.iotImageAlt;
+  const bldcImage = document.querySelector('.project-image--bldc img');
+  if (bldcImage) bldcImage.alt = t.bldcImageAlt;
+  const etapImage = document.querySelector('.project-image--plc img');
+  if (etapImage) etapImage.alt = t.etapImageAlt;
+  [['pv', 'pvImageAlt'], ['temp', 'tempImageAlt'], ['installation', 'installationImageAlt']].forEach(([name, key]) => {
+    const image = document.querySelector(`.project-image--${name} img`);
+    if (image) image.alt = t[key];
+  });
   document.querySelectorAll('.project-card').forEach((card, index) => {
     const project = t.projects[index];
     if (!project) return;
