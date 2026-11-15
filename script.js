@@ -39,7 +39,7 @@ const copy = {
     tempImageAlt: 'STM32 fan control setup connected to a laptop',
     installationImageAlt: 'Electrical distribution diagram created with Caneco BT',
     projects: [
-      {type:'ROBOTICS · ROS 2',title:'3D PERCEPTION & OBSTACLE AVOIDANCE',description:'Mobile-robot perception using a Raspberry Pi 5 and a depth camera to detect obstacles, identify free space and adapt the robot’s path in real time.',tags:['ROS 2','Raspberry Pi 5','Depth camera','Docker']},
+      {type:'ROBOTICS · ROS 2',title:'3D PERCEPTION & OBSTACLE AVOIDANCE',description:'Mobile-robot perception using a Raspberry Pi 5 and a depth camera to detect obstacles, identify free space and adapt the robot’s path in real time.',tags:['ROS 2','Gazebo','Raspberry Pi 5','Depth camera','Docker']},
       {type:'IOT · SUPERVISION',title:'IOT REAL-TIME ENERGY MONITORING',description:'IoT monitoring for energy consumption, temperature and humidity, using connected devices, MQTT, SQLite, and Grafana dashboards.',tags:['Raspberry Pi','ESP32','MQTT','Node-RED','Grafana']},
       {type:'POWER ELECTRONICS · FPGA',title:'BLDC MOTOR CONTROL ON SOC',description:'Modelled a BLDC motor in MATLAB/Simulink and developed six-step trapezoidal control for a Zybo Z7, with a three-phase MOSFET power board.',tags:['MATLAB / Simulink','Zybo Z7','Motor control']},
       {type:'EMBEDDED CONTROL',title:'SELF-BALANCING BALLBOT',description:'Modelled, simulated and implemented a self-balancing robot with an STM32, encoders and a stabilising control system.',tags:['STM32','Control systems','Encoders']},
@@ -120,7 +120,7 @@ const copy = {
     tempImageAlt: 'Montage STM32 de commande de ventilateur relié à un ordinateur',
     installationImageAlt: 'Schéma de distribution électrique réalisé avec Caneco BT',
     projects: [
-      {type:'ROBOTIQUE · ROS 2',title:'PERCEPTION 3D ET ÉVITEMENT D’OBSTACLES',description:'Conception d’un système de perception pour robot mobile utilisant un Raspberry Pi 5 et une caméra de profondeur afin de détecter les obstacles, repérer les espaces libres et adapter la trajectoire en temps réel.',tags:['ROS 2','Raspberry Pi 5','Caméra de profondeur','Docker']},
+      {type:'ROBOTIQUE · ROS 2',title:'PERCEPTION 3D ET ÉVITEMENT D’OBSTACLES',description:'Conception d’un système de perception pour robot mobile utilisant un Raspberry Pi 5 et une caméra de profondeur afin de détecter les obstacles, repérer les espaces libres et adapter la trajectoire en temps réel.',tags:['ROS 2','Gazebo','Raspberry Pi 5','Caméra de profondeur','Docker']},
       {type:'IOT · SUPERVISION',title:'SUPERVISION ÉNERGÉTIQUE IOT EN TEMPS RÉEL',description:'Supervision IoT de la consommation énergétique, de la température et de l’humidité, avec des appareils connectés, MQTT, SQLite et des tableaux de bord Grafana.',tags:['Raspberry Pi','ESP32','MQTT','Node-RED','Grafana']},
       {type:'ÉLECTRONIQUE DE PUISSANCE · FPGA',title:'COMMANDE D’UN MOTEUR BLDC SUR SOC',description:'Modélisation d’un moteur BLDC sous MATLAB/Simulink et développement d’une commande trapézoïdale à six étapes sur Zybo Z7, avec une carte de puissance triphasée à MOSFET.',tags:['MATLAB / Simulink','Zybo Z7','Commande moteur']},
       {type:'COMMANDE EMBARQUÉE',title:'ROBOT BALLBOT AUTO-ÉQUILIBRÉ',description:'Modélisation, simulation et réalisation d’un robot auto-équilibré intégrant une carte STM32, des encodeurs et une commande de stabilisation.',tags:['STM32','Systèmes de commande','Codeurs']},
